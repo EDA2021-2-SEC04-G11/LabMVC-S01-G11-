@@ -44,6 +44,7 @@ def printMenu():
     print("2- Cargar Tags")
     print("3- Cargar book-tags")
     print("0- Salir")
+    print('xd')
 
 
 def loadBooks():
