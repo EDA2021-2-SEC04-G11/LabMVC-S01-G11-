@@ -23,6 +23,7 @@
  * Dario Correal - Version inicial
  """
 
+from App.controller import loadBooksTags
 import config as cf
 import sys
 import controller
@@ -79,7 +80,9 @@ while True:
 
     # TODO: Modificaciones para el laboratorio 1.
     elif int(inputs[0]) == 3:
-        print("se han cargado los book-tags")
+        print("cargando informacion de los book-tags....")
+        tags = loadBooksTags()
+        print("se han cargado los book-tags.")
     else:
         sys.exit(0)
 sys.exit(0)
